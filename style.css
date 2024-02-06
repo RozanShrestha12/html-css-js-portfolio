@@ -369,7 +369,7 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
+  width: 50%;
   height: 90%;
 }
 
@@ -433,3 +433,37 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+.btn-container a{
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.btn-container button{
+  text-decoration: none;
+}
+
+#btn btn-color-1{
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+
+
+
+  .article-container {
+    display: flex;
+  }
+
+  .article {
+    flex: 1;
+    margin: 0 10px; /* Adjust margin as needed for spacing between articles */
+    text-align: center; /* Optional: Center content */
+  }
+
+  .icon {
+    max-width: 100%; /* Ensure images don't exceed container width */
+  }
+
